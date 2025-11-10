@@ -329,8 +329,7 @@
       background: linear-gradient(to right, var(--primary), var(--secondary));
     }
 
-    .feature:hover {
-      transform: translateY(-10px);
+    .feature:hover {      
       box-shadow: 0 15px 30px rgba(0,0,0,0.15);
     }
 
