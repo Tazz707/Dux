@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DX Coin - عملة الميم الذهبية</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- تأثيرات النانو تكنولوجي -->
+  <div class="nano-grid"></div>
+  <div class="nano-connections" id="nanoConnections"></div>
+  <div class="nano-particles" id="nanoParticles"></div>
+  <div class="nano-circuit">
+    <svg width="100%" height="100%" viewBox="0 0 100 100">
+      <path class="circuit-path" d="M10,10 L40,10 L40,40 L70,40 L70,70 L90,70" />
+      <path class="circuit-path" d="M90,30 L60,30 L60,60 L30,60 L30,90 L10,90" />
+      <path class="circuit-path" d="M50,10 L50,40 L80,40 L80,70" />
+      <path class="circuit-path" d="M50,90 L50,60 L20,60 L20,30" />
+    </svg>
+  </div>
+
+  <div class="container">
+    <header class="header">
+      <div class="logo">
+        <i class="fas fa-coins"></i>
+        DUX Coin
+      </div>
+      <nav class="nav-links">
+        <a href="#about">عن العملة</a>
+        <a href="#features">المميزات</a>
+        <a href="#buy">الشراء</a>
+      </nav>
+    </header>
+
+    <main class="main-content">
+      <div class="coin-container">
+        <div class="coin">
+          <img src="assets/images/coin.png" alt="عملة DX" onerror="this.src='https://i.imgur.com/f0zolRl.png'">
+        </div>
+        <div class="coin-glow"></div>
+        <div class="meme-badge">عملة ميم 🔥</div>
+      </div>
+      
+      <h1 class="main-title">DX Coin</h1>
+      <div class="tagline">العملة الذهبية الرقمية</div>
+      <p class="description">العملة الرقمية الذهبية التي تمثل القوة والاستقلال المالي.  
+         اكتشف قيمتها وكن جزءاً من مستقبل اللامركزية والتمويل الرقمي الآمن.</p>
+      
+      <div class="features" id="features">
+        <div class="feature">
+          <i class="fas fa-bolt"></i>
+          <h3>سريعة</h3>
+          <p>معاملات فورية بأقل تكلفة</p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-globe"></i>
+          <h3>عالمية</h3>
+          <p>متاحة للتداول في كل مكان</p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-shield-alt"></i>
+          <h3>آمنة</h3>
+          <p>تقنية تشفير متطورة</p>
+        </div>
+      </div>
+      
+      <button class="buy-button" onclick="goToExchange()">
+        <i class="fas fa-shopping-cart"></i>
+        شراء الآن
+      </button>
+      
+      <div class="stats">
+        <div class="stat">
+          <div class="stat-value">$1.25</div>
+          <div class="stat-label">السعر الحالي</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value">+15%</div>
+          <div class="stat-label">تغير 24h</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value">10M</div>
+          <div class="stat-label">الحجم</div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="copyright">© 2025 DX Coin. جميع الحقوق محفوظة</div>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-telegram"></i></a>
+        <a href="#"><i class="fab fa-discord"></i></a>
+        <a href="#"><i class="fab fa-reddit"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/nano-effects.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
